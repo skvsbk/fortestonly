@@ -32,4 +32,5 @@ if __name__ == '__main__':
     CHAR_1 = clear_str_or_none(ch)
     print(CHAR_1)
     # for IT-114
+    # for IT-114
 
