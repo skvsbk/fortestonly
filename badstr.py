@@ -22,3 +22,4 @@ if __name__ == '__main__':
     CHAR_1 = clear_str_for_xml('\u0020')
     print(CHAR_1)
     # changes for test 12
+    # master
