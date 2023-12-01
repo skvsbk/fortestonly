@@ -18,9 +18,17 @@ def clear_str_for_xml(dirty_str):
     return clear_str
 
 
+def clear_str_or_none(dirty_str):
+    """ Очистить строку от символов unicode """
+    # if dirty_str is None:
+    #     return None
+    if type(dirty_str) is str:
+        return clear_str_for_xml(dirty_str)
+    return dirty_str
+
+
 if __name__ == '__main__':
-    CHAR_1 = clear_str_for_xml('\u0020')
+    ch = None
+    CHAR_1 = clear_str_or_none(ch)
     print(CHAR_1)
-    # changes for test 12
-    # master
-    # Test 113
+
